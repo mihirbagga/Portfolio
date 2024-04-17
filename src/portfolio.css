@@ -1,0 +1,79 @@
+.portfolio_container {
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 100px;
+
+  .bg-logo {
+    transform: rotate(45deg); /* Rotate the logo by 45 degrees */
+    position: fixed;
+    z-index: -1;
+    margin-top: 50px;
+    margin-left: 280px;
+  }
+
+  .resume {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 5px 2px orchid;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    top: 2%;
+    height: 23px;
+    width: 60px;
+  }
+  .about_container {
+    font-weight: 400;
+    z-index: 1;
+
+    .about_description {
+      color: grey;
+    }
+    .about_description {
+      .about_description_name {
+        font-size: 76px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: aliceblue;
+      }
+      .about_description_designation {
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+    .about_description_icons {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+.after_about{
+  margin-top:30%;
+}
+  .experience_section {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 40px;
+  }
+  .tech_stack{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+
+  }
+  .rotate {
+    height: 80px;
+    width: 80px;
+    animation: rotation 8s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+}

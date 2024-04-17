@@ -1,0 +1,15 @@
+.rate{
+  display: flex;
+  gap: 5px;
+}
+.star{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.star-color {
+  background-color: azure;
+}
+.selected-star-color {
+  background-color: yellow;
+}
